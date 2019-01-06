@@ -10,6 +10,7 @@
         public Ribbon1()
             : base(Globals.Factory.GetRibbonFactory())
         {
+
             InitializeComponent();
         }
 

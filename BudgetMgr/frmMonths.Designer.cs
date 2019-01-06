@@ -52,40 +52,47 @@
             // cbMthSelectAll
             // 
             this.cbMthSelectAll.AutoSize = true;
-            this.cbMthSelectAll.Location = new System.Drawing.Point(19, 18);
+            this.cbMthSelectAll.Location = new System.Drawing.Point(13, 12);
+            this.cbMthSelectAll.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthSelectAll.Name = "cbMthSelectAll";
-            this.cbMthSelectAll.Size = new System.Drawing.Size(101, 24);
+            this.cbMthSelectAll.Size = new System.Drawing.Size(70, 17);
             this.cbMthSelectAll.TabIndex = 0;
             this.cbMthSelectAll.Text = "Select All";
             this.cbMthSelectAll.UseVisualStyleBackColor = true;
+            this.cbMthSelectAll.CheckedChanged += new System.EventHandler(this.cbMthSelectAll_CheckedChanged);
             // 
             // cbMthJanuary
             // 
             this.cbMthJanuary.AutoSize = true;
-            this.cbMthJanuary.Location = new System.Drawing.Point(27, 104);
+            this.cbMthJanuary.Location = new System.Drawing.Point(18, 68);
+            this.cbMthJanuary.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthJanuary.Name = "cbMthJanuary";
-            this.cbMthJanuary.Size = new System.Drawing.Size(91, 24);
+            this.cbMthJanuary.Size = new System.Drawing.Size(63, 17);
             this.cbMthJanuary.TabIndex = 1;
             this.cbMthJanuary.Text = "January";
             this.cbMthJanuary.UseVisualStyleBackColor = true;
+            this.cbMthJanuary.CheckedChanged += new System.EventHandler(this.cbMthJanuary_CheckedChanged);
             // 
             // cbMthFebruary
             // 
             this.cbMthFebruary.AutoSize = true;
-            this.cbMthFebruary.Location = new System.Drawing.Point(27, 135);
+            this.cbMthFebruary.Location = new System.Drawing.Point(18, 88);
+            this.cbMthFebruary.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthFebruary.Name = "cbMthFebruary";
-            this.cbMthFebruary.Size = new System.Drawing.Size(98, 24);
+            this.cbMthFebruary.Size = new System.Drawing.Size(67, 17);
             this.cbMthFebruary.TabIndex = 2;
             this.cbMthFebruary.Text = "February";
             this.cbMthFebruary.UseVisualStyleBackColor = true;
+            this.cbMthFebruary.CheckedChanged += new System.EventHandler(this.cbMthFebruary_CheckedChanged);
             // 
             // bMthOK
             // 
             this.bMthOK.AutoSize = true;
             this.bMthOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.bMthOK.Location = new System.Drawing.Point(444, 232);
+            this.bMthOK.Location = new System.Drawing.Point(296, 151);
+            this.bMthOK.Margin = new System.Windows.Forms.Padding(2);
             this.bMthOK.Name = "bMthOK";
-            this.bMthOK.Size = new System.Drawing.Size(75, 30);
+            this.bMthOK.Size = new System.Drawing.Size(50, 23);
             this.bMthOK.TabIndex = 3;
             this.bMthOK.Text = "OK";
             this.bMthOK.UseVisualStyleBackColor = true;
@@ -95,9 +102,10 @@
             // 
             this.bMthCancel.AutoSize = true;
             this.bMthCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bMthCancel.Location = new System.Drawing.Point(532, 232);
+            this.bMthCancel.Location = new System.Drawing.Point(355, 151);
+            this.bMthCancel.Margin = new System.Windows.Forms.Padding(2);
             this.bMthCancel.Name = "bMthCancel";
-            this.bMthCancel.Size = new System.Drawing.Size(75, 30);
+            this.bMthCancel.Size = new System.Drawing.Size(50, 23);
             this.bMthCancel.TabIndex = 4;
             this.bMthCancel.Text = "Cancel";
             this.bMthCancel.UseVisualStyleBackColor = true;
@@ -106,50 +114,59 @@
             // cbMthMarch
             // 
             this.cbMthMarch.AutoSize = true;
-            this.cbMthMarch.Location = new System.Drawing.Point(27, 166);
+            this.cbMthMarch.Location = new System.Drawing.Point(18, 108);
+            this.cbMthMarch.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthMarch.Name = "cbMthMarch";
-            this.cbMthMarch.Size = new System.Drawing.Size(79, 24);
-            this.cbMthMarch.TabIndex = 5;
+            this.cbMthMarch.Size = new System.Drawing.Size(56, 17);
+            this.cbMthMarch.TabIndex = 3;
             this.cbMthMarch.Text = "March";
             this.cbMthMarch.UseVisualStyleBackColor = true;
+            this.cbMthMarch.CheckedChanged += new System.EventHandler(this.cbMthMarch_CheckedChanged);
             // 
             // cbMthApril
             // 
             this.cbMthApril.AutoSize = true;
-            this.cbMthApril.Location = new System.Drawing.Point(184, 104);
+            this.cbMthApril.Location = new System.Drawing.Point(123, 68);
+            this.cbMthApril.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthApril.Name = "cbMthApril";
-            this.cbMthApril.Size = new System.Drawing.Size(66, 24);
-            this.cbMthApril.TabIndex = 6;
+            this.cbMthApril.Size = new System.Drawing.Size(46, 17);
+            this.cbMthApril.TabIndex = 4;
             this.cbMthApril.Text = "April";
             this.cbMthApril.UseVisualStyleBackColor = true;
+            this.cbMthApril.CheckedChanged += new System.EventHandler(this.cbMthApril_CheckedChanged);
             // 
             // cbMthMay
             // 
             this.cbMthMay.AutoSize = true;
-            this.cbMthMay.Location = new System.Drawing.Point(184, 135);
+            this.cbMthMay.Location = new System.Drawing.Point(123, 88);
+            this.cbMthMay.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthMay.Name = "cbMthMay";
-            this.cbMthMay.Size = new System.Drawing.Size(64, 24);
-            this.cbMthMay.TabIndex = 7;
+            this.cbMthMay.Size = new System.Drawing.Size(46, 17);
+            this.cbMthMay.TabIndex = 5;
             this.cbMthMay.Text = "May";
             this.cbMthMay.UseVisualStyleBackColor = true;
+            this.cbMthMay.CheckedChanged += new System.EventHandler(this.cbMthMay_CheckedChanged);
             // 
             // cbMthJune
             // 
             this.cbMthJune.AutoSize = true;
-            this.cbMthJune.Location = new System.Drawing.Point(184, 166);
+            this.cbMthJune.Location = new System.Drawing.Point(123, 108);
+            this.cbMthJune.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthJune.Name = "cbMthJune";
-            this.cbMthJune.Size = new System.Drawing.Size(70, 24);
-            this.cbMthJune.TabIndex = 8;
+            this.cbMthJune.Size = new System.Drawing.Size(49, 17);
+            this.cbMthJune.TabIndex = 6;
             this.cbMthJune.Text = "June";
             this.cbMthJune.UseVisualStyleBackColor = true;
+            this.cbMthJune.CheckedChanged += new System.EventHandler(this.cbMthJune_CheckedChanged);
             // 
             // cbMthJuly
             // 
             this.cbMthJuly.AutoSize = true;
-            this.cbMthJuly.Location = new System.Drawing.Point(335, 104);
+            this.cbMthJuly.Location = new System.Drawing.Point(223, 68);
+            this.cbMthJuly.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthJuly.Name = "cbMthJuly";
-            this.cbMthJuly.Size = new System.Drawing.Size(62, 24);
-            this.cbMthJuly.TabIndex = 9;
+            this.cbMthJuly.Size = new System.Drawing.Size(44, 17);
+            this.cbMthJuly.TabIndex = 7;
             this.cbMthJuly.Text = "July";
             this.cbMthJuly.UseVisualStyleBackColor = true;
             this.cbMthJuly.CheckedChanged += new System.EventHandler(this.cbMthJuly_CheckedChanged);
@@ -157,94 +174,112 @@
             // cbMthAugust
             // 
             this.cbMthAugust.AutoSize = true;
-            this.cbMthAugust.Location = new System.Drawing.Point(335, 134);
+            this.cbMthAugust.Location = new System.Drawing.Point(223, 87);
+            this.cbMthAugust.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthAugust.Name = "cbMthAugust";
-            this.cbMthAugust.Size = new System.Drawing.Size(86, 24);
-            this.cbMthAugust.TabIndex = 10;
+            this.cbMthAugust.Size = new System.Drawing.Size(59, 17);
+            this.cbMthAugust.TabIndex = 8;
             this.cbMthAugust.Text = "August";
             this.cbMthAugust.UseVisualStyleBackColor = true;
+            this.cbMthAugust.CheckedChanged += new System.EventHandler(this.cbMthAugust_CheckedChanged);
             // 
             // cbMthSeptember
             // 
             this.cbMthSeptember.AutoSize = true;
-            this.cbMthSeptember.Location = new System.Drawing.Point(335, 164);
+            this.cbMthSeptember.Location = new System.Drawing.Point(223, 107);
+            this.cbMthSeptember.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthSeptember.Name = "cbMthSeptember";
-            this.cbMthSeptember.Size = new System.Drawing.Size(114, 24);
-            this.cbMthSeptember.TabIndex = 11;
+            this.cbMthSeptember.Size = new System.Drawing.Size(77, 17);
+            this.cbMthSeptember.TabIndex = 9;
             this.cbMthSeptember.Text = "September";
             this.cbMthSeptember.UseVisualStyleBackColor = true;
+            this.cbMthSeptember.CheckedChanged += new System.EventHandler(this.cbMthSeptember_CheckedChanged);
             // 
             // cbMthOctober
             // 
             this.cbMthOctober.AutoSize = true;
-            this.cbMthOctober.Location = new System.Drawing.Point(486, 101);
+            this.cbMthOctober.Location = new System.Drawing.Point(324, 66);
+            this.cbMthOctober.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthOctober.Name = "cbMthOctober";
-            this.cbMthOctober.Size = new System.Drawing.Size(92, 24);
-            this.cbMthOctober.TabIndex = 12;
+            this.cbMthOctober.Size = new System.Drawing.Size(64, 17);
+            this.cbMthOctober.TabIndex = 10;
             this.cbMthOctober.Text = "October";
             this.cbMthOctober.UseVisualStyleBackColor = true;
+            this.cbMthOctober.CheckedChanged += new System.EventHandler(this.cbMthOctober_CheckedChanged);
             // 
             // cbMthNovember
             // 
             this.cbMthNovember.AutoSize = true;
-            this.cbMthNovember.Location = new System.Drawing.Point(486, 133);
+            this.cbMthNovember.Location = new System.Drawing.Point(324, 86);
+            this.cbMthNovember.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthNovember.Name = "cbMthNovember";
-            this.cbMthNovember.Size = new System.Drawing.Size(107, 24);
-            this.cbMthNovember.TabIndex = 13;
+            this.cbMthNovember.Size = new System.Drawing.Size(75, 17);
+            this.cbMthNovember.TabIndex = 11;
             this.cbMthNovember.Text = "November";
             this.cbMthNovember.UseVisualStyleBackColor = true;
+            this.cbMthNovember.CheckedChanged += new System.EventHandler(this.cbMthNovember_CheckedChanged);
             // 
             // cbMthDecember
             // 
             this.cbMthDecember.AutoSize = true;
-            this.cbMthDecember.Location = new System.Drawing.Point(486, 166);
+            this.cbMthDecember.Location = new System.Drawing.Point(324, 108);
+            this.cbMthDecember.Margin = new System.Windows.Forms.Padding(2);
             this.cbMthDecember.Name = "cbMthDecember";
-            this.cbMthDecember.Size = new System.Drawing.Size(109, 24);
-            this.cbMthDecember.TabIndex = 14;
+            this.cbMthDecember.Size = new System.Drawing.Size(75, 17);
+            this.cbMthDecember.TabIndex = 12;
             this.cbMthDecember.Text = "December";
             this.cbMthDecember.UseVisualStyleBackColor = true;
+            this.cbMthDecember.CheckedChanged += new System.EventHandler(this.cbMthDecember_CheckedChanged);
             // 
             // gbMthQ4
             // 
-            this.gbMthQ4.Location = new System.Drawing.Point(471, 72);
+            this.gbMthQ4.Location = new System.Drawing.Point(314, 47);
+            this.gbMthQ4.Margin = new System.Windows.Forms.Padding(2);
             this.gbMthQ4.Name = "gbMthQ4";
-            this.gbMthQ4.Size = new System.Drawing.Size(148, 132);
+            this.gbMthQ4.Padding = new System.Windows.Forms.Padding(2);
+            this.gbMthQ4.Size = new System.Drawing.Size(99, 86);
             this.gbMthQ4.TabIndex = 16;
             this.gbMthQ4.TabStop = false;
             this.gbMthQ4.Text = "Quarter 4";
             // 
             // gbMthQ1
             // 
-            this.gbMthQ1.Location = new System.Drawing.Point(12, 72);
+            this.gbMthQ1.Location = new System.Drawing.Point(8, 47);
+            this.gbMthQ1.Margin = new System.Windows.Forms.Padding(2);
             this.gbMthQ1.Name = "gbMthQ1";
-            this.gbMthQ1.Size = new System.Drawing.Size(148, 132);
+            this.gbMthQ1.Padding = new System.Windows.Forms.Padding(2);
+            this.gbMthQ1.Size = new System.Drawing.Size(99, 86);
             this.gbMthQ1.TabIndex = 17;
             this.gbMthQ1.TabStop = false;
             this.gbMthQ1.Text = "Quarter 1";
             // 
             // gbMthQ2
             // 
-            this.gbMthQ2.Location = new System.Drawing.Point(165, 72);
+            this.gbMthQ2.Location = new System.Drawing.Point(110, 47);
+            this.gbMthQ2.Margin = new System.Windows.Forms.Padding(2);
             this.gbMthQ2.Name = "gbMthQ2";
-            this.gbMthQ2.Size = new System.Drawing.Size(148, 132);
+            this.gbMthQ2.Padding = new System.Windows.Forms.Padding(2);
+            this.gbMthQ2.Size = new System.Drawing.Size(99, 86);
             this.gbMthQ2.TabIndex = 18;
             this.gbMthQ2.TabStop = false;
             this.gbMthQ2.Text = "Quarter 2";
             // 
             // gbMthQ3
             // 
-            this.gbMthQ3.Location = new System.Drawing.Point(318, 72);
+            this.gbMthQ3.Location = new System.Drawing.Point(212, 47);
+            this.gbMthQ3.Margin = new System.Windows.Forms.Padding(2);
             this.gbMthQ3.Name = "gbMthQ3";
-            this.gbMthQ3.Size = new System.Drawing.Size(148, 132);
+            this.gbMthQ3.Padding = new System.Windows.Forms.Padding(2);
+            this.gbMthQ3.Size = new System.Drawing.Size(99, 86);
             this.gbMthQ3.TabIndex = 19;
             this.gbMthQ3.TabStop = false;
             this.gbMthQ3.Text = "Quarter 3";
             // 
             // frmMonths
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 277);
+            this.ClientSize = new System.Drawing.Size(419, 180);
             this.Controls.Add(this.cbMthDecember);
             this.Controls.Add(this.cbMthNovember);
             this.Controls.Add(this.cbMthOctober);
@@ -264,6 +299,7 @@
             this.Controls.Add(this.gbMthQ3);
             this.Controls.Add(this.gbMthQ2);
             this.Controls.Add(this.gbMthQ1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMonths";
             this.Text = "Select Months";
             this.ResumeLayout(false);

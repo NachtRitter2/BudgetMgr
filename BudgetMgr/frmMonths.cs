@@ -12,7 +12,6 @@ namespace BudgetMgr
 {
     public partial class frmMonths : Form
     {
-        private List<Boolean> Months;
 
         public frmMonths()
         {
@@ -23,11 +22,7 @@ namespace BudgetMgr
             
             this.Top = appCtr.X - (this.Width / 2);
 
-            Months = new List<bool> {
-                false, false, false, false,
-                false, false, false, false,
-                false, false, false, false
-            };
+
 
         }
 
@@ -262,12 +257,12 @@ namespace BudgetMgr
 
         private void setMonth(int Mth)
         {
-            Months[Mth - 1] = true;
+            ThisAddIn.Months[Mth - 1] = true;
         }
 
         private void clearMonth(int Mth)
         {
-            Months[Mth - 1] = false;
+            ThisAddIn. Months[Mth - 1] = false;
         }
 
     }

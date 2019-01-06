@@ -213,7 +213,7 @@
     <ManifestKeyFile>BudgetMgr_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>92B6F405CED3D0B0E52FD7574071C0B217D1CECA</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>4BAD0FE167C0381718465F09B83C83891468BF0F</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

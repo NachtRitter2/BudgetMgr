@@ -11,8 +11,18 @@ namespace BudgetMgr
 {
     public partial class ThisAddIn
     {
+
+        public static List<bool> Months;
+
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            Months = new List<bool> {
+                false, false, false,
+                false, false, false,
+                false, false, false,
+                false, false, false
+            };
+
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
